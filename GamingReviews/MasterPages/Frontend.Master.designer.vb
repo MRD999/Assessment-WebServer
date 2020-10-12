@@ -66,4 +66,22 @@ Partial Public Class Frontend
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lbSubTitle As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''side1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents side1 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''side2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents side2 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 End Class

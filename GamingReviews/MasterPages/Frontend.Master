@@ -18,12 +18,18 @@
             </nav>
             <nav class="Title" style="height: 55px">
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Label ID="lbTitle" runat="server" Text="Title"></asp:Label>
+                <asp:Label ID="lbTitle" runat="server" Text="Game Reviews" CssClass="lbTitle"></asp:Label>
                 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Label ID="lbSubTitle" runat="server" Text="SubTitle"></asp:Label>
             </nav>
         </div>
     </form>
+    <aside id="side1" runat="server">
+
+    </aside>
+    <aside id="side2" runat="server">
+
+    </aside>
 </body>
 </html>

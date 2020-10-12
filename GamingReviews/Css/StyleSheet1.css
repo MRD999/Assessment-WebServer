@@ -5,16 +5,18 @@ nav.Title
     background-color:aqua;
     width: 50%;
     float:left;
+    color: black;
 }
-nav.Menu
-{
-    background-color:orangered;
-    width: 50%;
-    float:right;
-}
+
+ nav.Menu {
+        background-color: orangered;
+        width: 50%;
+        float: right;
+    }
 nav.Menu title
 {
     color:white;
+
 }
 ul.level1
 {
