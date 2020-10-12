@@ -1,0 +1,56 @@
+﻿body {
+}
+nav.Title
+{
+    background-color:aqua;
+    width: 50%;
+    float:left;
+}
+nav.Menu
+{
+    background-color:orangered;
+    width: 50%;
+    float:right;
+}
+nav.Menu title
+{
+    color:white;
+}
+ul.level1
+{
+  font-size: 15px;
+  font-weight: bold;
+  height: 100%;
+  line-height: 56px;
+  background-color: gray;
+ 
+ 
+}
+ul.level1 ul.level2.selected
+{
+    background-color: lightgray;
+}
+
+a.level1
+{
+    padding-left: 3vw !important;
+    padding-right:6.1vw !important;
+    border:solid;
+    border-color:black;
+    border-width:1px;
+
+}
+a.level2
+{
+    background-color:gray;
+    width:12vw;
+}
+a.level1:hover, a.level2:hover
+{
+    background-color:lightgray;
+}
+a
+{
+    color:white;
+    text-decoration:none;
+}

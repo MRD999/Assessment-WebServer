@@ -1,0 +1,29 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Frontend.master.vb" Inherits="GamingReviews.Frontend" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="../Css/StyleSheet1.css" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="HeadWrapper">
+            <nav class="Menu" style="height: 56px">
+                <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            </nav>
+            <nav class="Title" style="height: 55px">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="lbTitle" runat="server" Text="Title"></asp:Label>
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="lbSubTitle" runat="server" Text="SubTitle"></asp:Label>
+            </nav>
+        </div>
+    </form>
+</body>
+</html>
