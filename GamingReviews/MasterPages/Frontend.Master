@@ -5,11 +5,18 @@
 <html>
 <head runat="server">
     <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
     <link rel="stylesheet" href="../Css/StyleSheet1.css" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 576px;
+            height: 523px;
+        }
+    </style>
 </head>
 <body>
+    <!-- headWrapper -->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
     <form id="form1" runat="server">
         <div id="HeadWrapper">
             <nav class="Menu" style="height: 56px">
@@ -25,11 +32,38 @@
             </nav>
         </div>
     </form>
-    <aside id="side1" runat="server">
+    <!-- aside  -->
+    <asp:ContentPlaceHolder ID="aside" runat="server">
+    </asp:ContentPlaceHolder>
+        <div id="asideWrapper" runat="server">
+        <aside id="side1" runat="server">
+           <ul>
+               <li>Reviewers</li>
+               <ul>
+                   <li>Reviewer1</li>
+                   <li>Reviewer2</li>
+                   <li>Reviewer3</li>
+                   <li>Reviewer4</li>
+               </ul>
+           </ul>
+        </aside>
+        <aside id="side2" runat="server">
+            <img src="../Images/Ad.jpg" class="auto-style1" />
+        </aside>
+        </div>
+    <!-- body for home page -->
+    <asp:ContentPlaceHolder ID="homeBody" runat="server">
+    </asp:ContentPlaceHolder>
+        <div id="mainBody">
+            <h1>test</h1>
 
-    </aside>
-    <aside id="side2" runat="server">
-
-    </aside>
+        </div>
+     <!-- Footer -->
+    <asp:ContentPlaceHolder ID="footer" runat="server">
+    </asp:ContentPlaceHolder>
+    <footer>
+        <p>&#9993; <a href="mailto:webmaster@example.com">Jon Doe</a> &#9742; <a href=" tel:555-555-1212">555-555-1212</a> &#9964; 123 fake street Geelong</p>
+    </footer>
 </body>
+
 </html>
