@@ -54,6 +54,13 @@
     <!-- body for home page -->
     <asp:ContentPlaceHolder ID="homeBody" runat="server">
     </asp:ContentPlaceHolder>
+        <div id="homeMainBody">
+            <h1>test</h1>
+
+        </div>
+    <!-- body for AboutUS -->
+    <asp:ContentPlaceHolder ID="aboutUs" runat="server">
+    </asp:ContentPlaceHolder>
         <div id="mainBody">
             <h1>test</h1>
 

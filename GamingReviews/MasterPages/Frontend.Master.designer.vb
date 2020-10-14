@@ -113,6 +113,15 @@ Partial Public Class Frontend
     Protected WithEvents homeBody As Global.System.Web.UI.WebControls.ContentPlaceHolder
 
     '''<summary>
+    '''aboutUs control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents aboutUs As Global.System.Web.UI.WebControls.ContentPlaceHolder
+
+    '''<summary>
     '''footer control.
     '''</summary>
     '''<remarks>
