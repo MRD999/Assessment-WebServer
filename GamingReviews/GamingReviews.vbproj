@@ -96,7 +96,6 @@
     <Content Include="Css\StyleSheet1.css" />
     <Content Include="Default.aspx" />
     <Content Include="Images\Ad.jpg" />
-    <Content Include="MasterPages\WebForm1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -120,13 +119,6 @@
     <Compile Include="MasterPages\Frontend.Master.vb">
       <DependentUpon>Frontend.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MasterPages\WebForm1.aspx.designer.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="MasterPages\WebForm1.aspx.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

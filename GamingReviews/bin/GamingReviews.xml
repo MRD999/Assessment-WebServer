@@ -37,9 +37,18 @@ GamingReviews
  Returns the Asp log object.
  </summary>
 </member>
-<member name="F:GamingReviews.Frontend._head">
+<member name="F:GamingReviews._Default._lbTitle">
 <summary>
-head control.
+lbTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews._Default._lbSubTitle">
+<summary>
+lbSubTitle control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -73,27 +82,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:GamingReviews.Frontend._lbTitle">
+<member name="F:GamingReviews.Frontend._head">
 <summary>
-lbTitle control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:GamingReviews.Frontend._lbSubTitle">
-<summary>
-lbSubTitle control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:GamingReviews.Frontend._aside">
-<summary>
-aside control.
+head control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -127,27 +118,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:GamingReviews.Frontend._homeBody">
+<member name="F:GamingReviews.Frontend._body">
 <summary>
-homeBody control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:GamingReviews.Frontend._aboutUsBody">
-<summary>
-aboutUsBody control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:GamingReviews.Frontend._footer">
-<summary>
-footer control.
+body control.
 </summary>
 <remarks>
 Auto-generated field.

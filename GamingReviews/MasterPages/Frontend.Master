@@ -15,26 +15,17 @@
 </head>
 <body>
     <!-- headWrapper -->
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
     <form id="form1" runat="server">
         <div id="HeadWrapper">
             <nav class="Menu" style="height: 56px">
                 <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
                 <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
             </nav>
-            <nav class="Title" style="height: 55px">
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Label ID="lbTitle" runat="server" Text="Game Reviews" CssClass="lbTitle"></asp:Label>
-                <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Label ID="lbSubTitle" runat="server" Text="SubTitle"></asp:Label>
-            </nav>
+            <asp:ContentPlaceHolder ID="head" runat="server">
+            </asp:ContentPlaceHolder>
         </div>
     </form>
     <!-- aside  -->
-    <asp:ContentPlaceHolder ID="aside" runat="server">
-    </asp:ContentPlaceHolder>
         <div id="asideWrapper" runat="server">
         <aside id="side1" runat="server">
            <ul>
@@ -51,23 +42,11 @@
             <img src="../Images/Ad.jpg" class="auto-style1" />
         </aside>
         </div>
-    <!-- body for home page -->
-    <asp:ContentPlaceHolder ID="homeBody" runat="server">
+    <!-- body -->
+    <asp:ContentPlaceHolder ID="body" runat="server">
     </asp:ContentPlaceHolder>
-        <div id="homeMainBody">
-            <h1>test</h1>
 
-        </div>
-    <!-- body for AboutUS -->
-    <asp:ContentPlaceHolder ID="aboutUs" runat="server">
-    </asp:ContentPlaceHolder>
-        <div id="mainBody">
-            <h1>test</h1>
-
-        </div>
      <!-- Footer -->
-    <asp:ContentPlaceHolder ID="footer" runat="server">
-    </asp:ContentPlaceHolder>
     <footer>
         <p>&#9993; <a href="mailto:webmaster@example.com">Jon Doe</a> &#9742; <a href=" tel:555-555-1212">555-555-1212</a> &#9964; 123 fake street Geelong</p>
     </footer>
