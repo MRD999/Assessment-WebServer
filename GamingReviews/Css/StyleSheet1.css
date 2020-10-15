@@ -6,6 +6,25 @@ nav.Title
     width: 50%;
     float:left;
     color: black;
+    padding-top:5px;
+}
+aside#side1
+{
+    background-color:orange;
+    width: 30%;
+    float: right;
+}
+aside#side2 {
+    background-color: green;
+    width: 0%;
+    float: right;
+    padding-top:6%;
+}
+div#mainBody
+{
+    padding-top: 20px;
+    background-color:blueviolet;
+    width: 70%;
 }
 
  nav.Menu {
@@ -16,7 +35,6 @@ nav.Title
 nav.Menu title
 {
     color:white;
-
 }
 ul.level1
 {
@@ -55,4 +73,12 @@ a
 {
     color:white;
     text-decoration:none;
+}
+body > footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
 }

@@ -92,12 +92,21 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AboutUs\AboutUs.aspx" />
     <Content Include="Css\StyleSheet1.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Images\Ad.jpg" />
     <Content Include="MasterPages\WebForm1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs\AboutUs.aspx.designer.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs\AboutUs.aspx.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
@@ -168,7 +177,6 @@
     <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="AboutUs\" />
     <Folder Include="GameReviews\" />
     <Folder Include="Login\" />
     <Folder Include="Styles\" />

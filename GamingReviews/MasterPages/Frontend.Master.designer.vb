@@ -68,6 +68,24 @@ Partial Public Class Frontend
     Protected WithEvents lbSubTitle As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''aside control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents aside As Global.System.Web.UI.WebControls.ContentPlaceHolder
+
+    '''<summary>
+    '''asideWrapper control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents asideWrapper As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
     '''side1 control.
     '''</summary>
     '''<remarks>
@@ -84,4 +102,31 @@ Partial Public Class Frontend
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents side2 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''homeBody control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents homeBody As Global.System.Web.UI.WebControls.ContentPlaceHolder
+
+    '''<summary>
+    '''aboutUs control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents aboutUs As Global.System.Web.UI.WebControls.ContentPlaceHolder
+
+    '''<summary>
+    '''footer control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents footer As Global.System.Web.UI.WebControls.ContentPlaceHolder
 End Class
