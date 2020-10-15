@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class AboutUs
+Partial Public Class TermsAndPolices
 
     '''<summary>
     '''lbTitle control.

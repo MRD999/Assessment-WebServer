@@ -37,6 +37,60 @@ GamingReviews
  Returns the Asp log object.
  </summary>
 </member>
+<member name="F:GamingReviews.AboutUs._lbTitle">
+<summary>
+lbTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.AboutUs._lbSubTitle">
+<summary>
+lbSubTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.ReviewerDescription._lbTitle">
+<summary>
+lbTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.ReviewerDescription._lbSubTitle">
+<summary>
+lbSubTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.TermsAndPolices._lbTitle">
+<summary>
+lbTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.TermsAndPolices._lbSubTitle">
+<summary>
+lbSubTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:GamingReviews._Default._lbTitle">
 <summary>
 lbTitle control.
@@ -47,6 +101,114 @@ To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:GamingReviews._Default._lbSubTitle">
+<summary>
+lbSubTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.Archive._lbTitle">
+<summary>
+lbTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.Archive._lbSubTitle">
+<summary>
+lbSubTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.GameReviews._lbTitle">
+<summary>
+lbTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.GameReviews._lbSubTitle">
+<summary>
+lbSubTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.ForgotenAccount._lbTitle">
+<summary>
+lbTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.ForgotenAccount._lbSubTitle">
+<summary>
+lbSubTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.Login._lbTitle">
+<summary>
+lbTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.Login._lbSubTitle">
+<summary>
+lbSubTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.Profile._lbTitle">
+<summary>
+lbTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.Profile._lbSubTitle">
+<summary>
+lbSubTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.Signup._lbTitle">
+<summary>
+lbTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:GamingReviews.Signup._lbSubTitle">
 <summary>
 lbSubTitle control.
 </summary>

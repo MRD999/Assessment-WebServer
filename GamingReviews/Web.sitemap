@@ -9,6 +9,6 @@
     <siteMapNode url="~/GameReviews/GameReviews.aspx" title="Game Reviews" description="">
       <siteMapNode url="~/GameReviews/Archive.aspx" title="Archive" description=""/>
     </siteMapNode>
-    <siteMapNode url="~/Login" title="Login" description=""/>
+    <siteMapNode url="~/Login/Login.aspx" title="Login" description=""/>
   </siteMapNode>
 </siteMap>
