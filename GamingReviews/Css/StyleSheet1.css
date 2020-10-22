@@ -1,18 +1,19 @@
 ﻿body {
 }
-nav.Title
-{
-    background-color:aqua;
+nav.Title {
+    /*this controls the title area of the head wrapper*/
+    background-color: gray;
     width: 50%;
-    float:left;
+    float: left;
     color: black;
-    padding-top:5px;
+    padding-top: 6px;
 }
 aside#side1
 {
-    background-color:orange;
+    background-color:grey;
     width: 30%;
     float: right;
+    color:white;
 }
 aside#side2 {
     background-color: green;
@@ -22,13 +23,12 @@ aside#side2 {
 }
 div#homeBody
 {
-    padding-top: 20px;
-    background-color:blueviolet;
+    /*Control the body in the defualt page */
+    padding-top: 50px;
     width: 70%;
 }
 
  nav.Menu {
-        background-color: orangered;
         width: 50%;
         float: right;
     }
@@ -41,7 +41,7 @@ ul.level1
   font-size: 15px;
   font-weight: bold;
   height: 100%;
-  line-height: 56px;
+  line-height: 60px;
   background-color: gray;
  
  

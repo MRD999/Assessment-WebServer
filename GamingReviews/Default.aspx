@@ -10,6 +10,48 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
     <div id="homeBody">
-        <p>Test</p>        
+        <p><br /><br /><br />Welcome to Game Reviews</p> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Fusce tincidunt mauris ut augue rutrum, et ullamcorper purus fermentum. Integer ut elit eu purus sagittis semper et et enim. 
+            Nam condimentum eros sed velit semper, quis ultricies libero tincidunt.
+            Praesent pulvinar sodales ipsum. Donec et massa nec dui convallis pretium. In viverra hendrerit dictum. Donec quis ex viverra, 
+            tincidunt libero ac, molestie purus.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Fusce tincidunt mauris ut augue rutrum, et ullamcorper purus fermentum. Integer ut elit eu purus sagittis semper et et enim. 
+            Nam condimentum eros sed velit semper, quis ultricies libero tincidunt.
+            Praesent pulvinar sodales ipsum. Donec et massa nec dui convallis pretium. In viverra hendrerit dictum. Donec quis ex viverra, 
+            tincidunt libero ac, molestie purus.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Fusce tincidunt mauris ut augue rutrum, et ullamcorper purus fermentum. Integer ut elit eu purus sagittis semper et et enim. 
+            Nam condimentum eros sed velit semper, quis ultricies libero tincidunt.
+            Praesent pulvinar sodales ipsum. Donec et massa nec dui convallis pretium. In viverra hendrerit dictum. Donec quis ex viverra, 
+            tincidunt libero ac, molestie purus.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Fusce tincidunt mauris ut augue rutrum, et ullamcorper purus fermentum. Integer ut elit eu purus sagittis semper et et enim. 
+            Nam condimentum eros sed velit semper, quis ultricies libero tincidunt.
+            Praesent pulvinar sodales ipsum. Donec et massa nec dui convallis pretium. In viverra hendrerit dictum. Donec quis ex viverra, 
+            tincidunt libero ac, molestie purus.
+        </p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Fusce tincidunt mauris ut augue rutrum, et ullamcorper purus fermentum. Integer ut elit eu purus sagittis semper et et enim. 
+            Nam condimentum eros sed velit semper, quis ultricies libero tincidunt.
+            Praesent pulvinar sodales ipsum. Donec et massa nec dui convallis pretium. In viverra hendrerit dictum. Donec quis ex viverra, 
+            tincidunt libero ac, molestie purus.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Fusce tincidunt mauris ut augue rutrum, et ullamcorper purus fermentum. Integer ut elit eu purus sagittis semper et et enim. 
+            Nam condimentum eros sed velit semper, quis ultricies libero tincidunt.
+            Praesent pulvinar sodales ipsum. Donec et massa nec dui convallis pretium. In viverra hendrerit dictum. Donec quis ex viverra, 
+            tincidunt libero ac, molestie purus.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Fusce tincidunt mauris ut augue rutrum, et ullamcorper purus fermentum. Integer ut elit eu purus sagittis semper et et enim. 
+            Nam condimentum eros sed velit semper, quis ultricies libero tincidunt.
+            Praesent pulvinar sodales ipsum. Donec et massa nec dui convallis pretium. In viverra hendrerit dictum. Donec quis ex viverra, 
+            tincidunt libero ac, molestie purus.
+        </p>
     </div>
 </asp:Content>
