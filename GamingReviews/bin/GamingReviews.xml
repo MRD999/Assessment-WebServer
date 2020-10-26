@@ -100,15 +100,6 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:GamingReviews._Default._lbSubTitle">
-<summary>
-lbSubTitle control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:GamingReviews.Archive._lbTitle">
 <summary>
 lbTitle control.
@@ -217,18 +208,18 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:GamingReviews.Frontend._form1">
+<member name="F:GamingReviews.Frontend._head_form">
 <summary>
-form1 control.
+head_form control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:GamingReviews.Frontend._Menu1">
+<member name="F:GamingReviews.Frontend._head">
 <summary>
-Menu1 control.
+head control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -244,9 +235,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:GamingReviews.Frontend._head">
+<member name="F:GamingReviews.Frontend._Menu1">
 <summary>
-head control.
+Menu1 control.
 </summary>
 <remarks>
 Auto-generated field.

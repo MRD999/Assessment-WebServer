@@ -4,51 +4,58 @@
 
 <html>
 <head runat="server">
-    <title></title>
-    <link rel="stylesheet" href="../Css/StyleSheet1.css" type="text/css" />
-    <style type="text/css">
-        .auto-style1 {
-            width: 576px;
-            height: 523px;
-        }
-    </style>
+    <title>Game Reviews - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/reset_styles.css" type="text/css" />
+    <link rel="stylesheet" href="../Css/index.css" type="text/css" />
 </head>
 <body>
     <!-- headWrapper -->
-    <form id="form1" runat="server">
+    <form id="head_form" runat="server">
         <div id="HeadWrapper">
-            <nav class="Menu" style="height: 56px">
-                <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
-                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
-            </nav>
             <asp:ContentPlaceHolder ID="head" runat="server">
             </asp:ContentPlaceHolder>
+            <nav class="Menu" style="height: 56px">
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+                <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+            </nav>
         </div>
     </form>
-    <!-- aside  -->
+    
+    <section class="home_body" runat="server">
+        <!-- aside  -->
         <div id="asideWrapper" runat="server">
-        <aside id="side1" runat="server">
-           <ul>
-               <li>Reviewers</li>
+            <aside id="side1" runat="server">
+                <h3>Reviewers</h3>
                <ul>
-                   <li>Reviewer1</li>
-                   <li>Reviewer2</li>
-                   <li>Reviewer3</li>
-                   <li>Reviewer4</li>
+                    <li>Reviewer1</li>
+                    <li>Reviewer2</li>
+                    <li>Reviewer3</li>
+                    <li>Reviewer4</li>
+                    <li>Reviewer5</li>
+                    <li>Reviewer6</li>
+                    <li>Reviewer7</li>
+                    <li>Reviewer8</li>
+                    <li>Reviewer9</li>
+                    <li>Reviewer10</li>
+                    <li>Reviewer11</li>
+                    <li>Reviewer12</li>
+                    <li>Reviewer13</li>
                </ul>
-           </ul>
-        </aside>
-        <aside id="side2" runat="server">
-            <img src="../Images/Ad.jpg" class="auto-style1" />
-        </aside>
+            </aside>
+            <aside id="side2" runat="server">
+                <h1>Ad goes here</h1>
+            </aside>
         </div>
-    <!-- body -->
-    <asp:ContentPlaceHolder ID="body" runat="server">
-    </asp:ContentPlaceHolder>
+        <!-- body -->
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        </asp:ContentPlaceHolder>
+    </section>
 
      <!-- Footer -->
-    <footer>
-        <p>&#9993; <a href="mailto:webmaster@example.com">Jon Doe</a> &#9742; <a href=" tel:555-555-1212">555-555-1212</a> &#9964; 123 fake street Geelong</p>
+    <footer class="base_footer">
+        <p>&#9993;&nbsp;<a href="mailto:webmaster@example.com">Jon Doe</a>&nbsp;&#9742;&nbsp;<a href=" tel:555-555-1212">555-555-1212</a>&nbsp;&#9964;&nbsp;123 fake street Geelong</p>
     </footer>
 </body>
 

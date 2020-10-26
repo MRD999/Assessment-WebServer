@@ -46,6 +46,9 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SharpScss, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b9d29176e3cc094c, processorArchitecture=MSIL">
+      <HintPath>packages\SharpScss.2.0.0\lib\netstandard2.0\SharpScss.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -95,6 +98,18 @@
     <Content Include="AboutUs\AboutUs.aspx" />
     <Content Include="AboutUs\ReviewerDescriptions.aspx" />
     <Content Include="AboutUs\TermsAndPolicies.aspx" />
+    <Content Include="Css\index.css">
+      <DependentUpon>index.scss</DependentUpon>
+    </Content>
+    <Content Include="Css\index.min.css">
+      <DependentUpon>index.css</DependentUpon>
+    </Content>
+    <Content Include="Css\reset_styles.css">
+      <DependentUpon>reset_styles.scss</DependentUpon>
+    </Content>
+    <Content Include="Css\reset_styles.min.css">
+      <DependentUpon>reset_styles.css</DependentUpon>
+    </Content>
     <Content Include="Css\StyleSheet1.css" />
     <Content Include="Default.aspx" />
     <Content Include="GameReviews\Archive.aspx" />
@@ -214,6 +229,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPages\Frontend.Master" />
+    <Content Include="Css\index.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="Css\colors.scss" />
+    <Content Include="Css\mixs.scss" />
+    <Content Include="Css\reset_styles.scss" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -277,7 +300,9 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('packages\BuildWebCompiler.1.12.405\build\BuildWebCompiler.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\BuildWebCompiler.1.12.405\build\BuildWebCompiler.targets'))" />
   </Target>
+  <Import Project="packages\BuildWebCompiler.1.12.405\build\BuildWebCompiler.targets" Condition="Exists('packages\BuildWebCompiler.1.12.405\build\BuildWebCompiler.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
