@@ -10,6 +10,21 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
     <div id="homeBody">
-        <p>Test</p>        
+        <br /><br /><br />
+        <form action="action_page.php" method="post">
+
+        <div class="SignIn">
+         <label for="id"><b>ID</b></label>
+         <input type="text" placeholder="Enter id" name="id" required><br />
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required><br />
+
+       <button type="submit">Login</button>
+
+       <button type="button" class="btnSignup">Sign Up</button>
+     </div>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+</form>       
     </div>
 </asp:Content>
