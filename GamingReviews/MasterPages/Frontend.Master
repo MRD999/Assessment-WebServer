@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../Css/reset_styles.css" type="text/css" />
     <link rel="stylesheet" href="../Css/index.css" type="text/css" />
+    <link rel="stylesheet" href="../Css/StyleSheet1.css" type="text/css" />
 </head>
 <body>
     <!-- headWrapper -->
@@ -45,7 +46,8 @@
                </ul>
             </aside>
             <aside id="side2" runat="server">
-                <h1>Ad goes here</h1>
+                <!--<h1>Ad goes here</h1>-->
+                <img id="Ad" src="../Images/Ad.jpg"/>
             </aside>
         </div>
         <!-- body -->
