@@ -1,10 +1,2 @@
 ﻿[
-  {
-    "outputFile": "Css/index.css",
-    "inputFile": "Css/index.scss"
-  },
-  {
-    "outputFile": "Css/reset_styles.css",
-    "inputFile": "Css/reset_styles.scss"
-  }
 ]

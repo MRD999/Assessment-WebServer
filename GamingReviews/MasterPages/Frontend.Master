@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Frontend.master.vb" Inherits="GamingReviews.Frontend" %>
+﻿    <%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Frontend.master.vb" Inherits="GamingReviews.Frontend" %>
 
 <!DOCTYPE html>
 
@@ -45,7 +45,8 @@
                </ul>
             </aside>
             <aside id="side2" runat="server">
-                <h1>Ad goes here</h1>
+                <!--<h1>Ad goes here</h1>-->
+                <img src="../Images/Ad.jpg" alt="" />
             </aside>
         </div>
         <!-- body -->
