@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <title>Game Reviews - Home</title>
+    <title>Game Reviews</title>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../Css/reset_styles.css" type="text/css" />
@@ -34,15 +34,7 @@
                     <li>Reviewer2</li>
                     <li>Reviewer3</li>
                     <li>Reviewer4</li>
-                    <li>Reviewer5</li>
-                    <li>Reviewer6</li>
-                    <li>Reviewer7</li>
-                    <li>Reviewer8</li>
-                    <li>Reviewer9</li>
-                    <li>Reviewer10</li>
-                    <li>Reviewer11</li>
-                    <li>Reviewer12</li>
-                    <li>Reviewer13</li>
+
                </ul>
             </aside>
             <aside id="side2" runat="server">

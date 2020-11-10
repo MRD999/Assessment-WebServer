@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/MasterPages/Frontend.Master" AutoEventWireup="false" CodeBehind="Default.aspx.vb" Inherits="GamingReviews._Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <nav class="Title" style="height: 55px">
-        <asp:Label ID="lbTitle" runat="server" Text="Game Reviews" CssClass="lbTitle"></asp:Label>
+        <asp:Label ID="lbTitle" runat="server" Text="Home" CssClass="lbTitle"></asp:Label>
     </nav>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
