@@ -1,89 +1,8 @@
 ﻿body {
 }
-nav.Title {
-    /*this controls the title area of the head wrapper*/
-    background-color: gray;
-    width: 50%;
-    float: left;
-    color: black;
-    padding-top: 6px;
-}
-aside#side1
-{
-    background-color:grey;
-    width: 30%;
-    float: right;
-    color:white;
-}
-aside#side2 {
 
-    width: 0%;
-    float: right;
-    padding-top:6%;
-}
 img#Ad
 {
     width: 300px;
     height: 300px;
-}
-div#homeBody
-{
-    /*Control the body in the defualt page */
-    padding-top: 50px;
-    width: 70%;
-}
-
- nav.Menu {
-        width: 50%;
-        float: right;
-    }
-nav.Menu title
-{
-    color:white;
-}
-ul.level1
-{
-  font-size: 15px;
-  font-weight: bold;
-  height: 100%;
-  line-height: 60px;
-  background-color: gray;
- 
- 
-}
-ul.level1 ul.level2.selected
-{
-    background-color: lightgray;
-}
-
-a.level1
-{
-    padding-left: 3vw !important;
-    padding-right:6.1vw !important;
-    border:solid;
-    border-color:black;
-    border-width:1px;
-
-}
-a.level2
-{
-    background-color:gray;
-    width:12vw;
-}
-a.level1:hover, a.level2:hover
-{
-    background-color:lightgray;
-}
-a
-{
-    color:white;
-    text-decoration:none;
-}
-body > footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: gray;
-    color: white;
-    text-align: center;
 }
