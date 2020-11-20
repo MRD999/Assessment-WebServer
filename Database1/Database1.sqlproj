@@ -62,5 +62,13 @@
     <Build Include="tblRevewers.sql" />
     <Build Include="tblUsers.sql" />
     <Build Include="tblComments.sql" />
+    <Compile Include="test1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Test2.sql" />
+    <None Include="test3.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Database1.refactorlog" />
   </ItemGroup>
 </Project>

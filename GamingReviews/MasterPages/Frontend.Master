@@ -33,8 +33,7 @@
                     <li>Reviewer1</li>
                     <li>Reviewer2</li>
                     <li>Reviewer3</li>
-                    <li>Reviewer4</li>
-
+                    <li>Reviewer4</li> 
                </ul>
             </aside>
             <aside id="side2" runat="server">
