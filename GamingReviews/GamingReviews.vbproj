@@ -98,6 +98,10 @@
     <Content Include="AboutUs\AboutUs.aspx" />
     <Content Include="AboutUs\ReviewerDescriptions.aspx" />
     <Content Include="AboutUs\TermsAndPolicies.aspx" />
+    <Content Include="App_Data\ReviewDataBase.mdf" />
+    <Content Include="App_Data\ReviewDataBase_log.ldf">
+      <DependentUpon>ReviewDataBase.mdf</DependentUpon>
+    </Content>
     <Content Include="Css\index.css">
       <DependentUpon>index.scss</DependentUpon>
     </Content>
@@ -256,7 +260,6 @@
     <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Styles\" />
   </ItemGroup>
   <PropertyGroup>

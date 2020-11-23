@@ -21,4 +21,22 @@ Partial Public Class GameReviews
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lbTitle As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''GridView1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''SqlDataSource1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
 End Class
