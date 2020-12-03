@@ -1,4 +1,4 @@
-﻿    <%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Frontend.master.vb" Inherits="GamingReviews.Frontend" %>
+﻿    <%@ Master Language="C#"  AutoEventWireup="false" CodeBehind="Frontend.master.vb" Inherits="GamingReviews.Frontend" %>
 
 <!DOCTYPE html>
 
@@ -22,7 +22,7 @@
                 <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
             </nav>
         </div>
-    </form>
+    
     
     <section class="home_body" runat="server">
         <!-- aside  -->
@@ -46,6 +46,7 @@
         <asp:ContentPlaceHolder ID="body" runat="server">
         </asp:ContentPlaceHolder>
     </section>
+    </form>
 
      <!-- Footer -->
     <footer class="base_footer">

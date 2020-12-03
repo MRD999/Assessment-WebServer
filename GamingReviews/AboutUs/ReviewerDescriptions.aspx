@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPages/Frontend.Master" CodeBehind="ReviewerDescriptions.aspx.vb" Inherits="GamingReviews.ReviewerDescription" %>
+﻿<%@ Page Title="" Language="C#"  AutoEventWireup="false" MasterPageFile="~/MasterPages/Frontend.Master" CodeBehind="ReviewerDescriptions.aspx.vb" Inherits="GamingReviews.ReviewerDescription" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <nav class="Title" style="height: 55px">
         <asp:Label ID="lbTitle" runat="server" Text="Reviewers" CssClass="lbTitle"></asp:Label>

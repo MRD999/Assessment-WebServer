@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPages/Frontend.Master" CodeBehind="ForgotenAccount.aspx.vb" Inherits="GamingReviews.ForgotenAccount" %>
+﻿<%@ Page Title="" Language="C#"  AutoEventWireup="false" MasterPageFile="~/MasterPages/Frontend.Master" CodeBehind="ForgotenAccount.aspx.vb" Inherits="GamingReviews.ForgotenAccount" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <nav class="Title" style="height: 55px">
         <asp:Label ID="lbTitle" runat="server" Text="Forgotten" CssClass="lbTitle"></asp:Label>

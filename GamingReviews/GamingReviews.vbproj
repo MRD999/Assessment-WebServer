@@ -121,6 +121,7 @@
     <Content Include="Images\Ad.jpg" />
     <Content Include="Login\ForgotenAccount.aspx" />
     <Content Include="Login\Login.aspx" />
+    <Content Include="Login\LoginForm.ascx" />
     <Content Include="Login\Profile.aspx" />
     <Content Include="Login\Signup.aspx" />
     <Content Include="Web.config" />
@@ -180,7 +181,12 @@
     </Compile>
     <Compile Include="Login\Login.aspx.vb">
       <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login\LoginForm.ascx.designer.vb">
+      <DependentUpon>LoginForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\LoginForm.ascx.vb">
+      <DependentUpon>LoginForm.ascx</DependentUpon>
     </Compile>
     <Compile Include="Login\Profile.aspx.designer.vb">
       <DependentUpon>Profile.aspx</DependentUpon>
@@ -261,6 +267,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Styles\" />
+    <Folder Include="System\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
