@@ -1,4 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="false" CodeBehind="LoginForm.ascx.vb" Inherits="GamingReviews.LoginForm" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="LoginForm.ascx.cs" Inherits="GamingReviews.Login.LoginForm" %>
+
     <div id="homeBody">
         <h3>Sign in</h3>
 

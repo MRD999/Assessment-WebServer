@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="false" MasterPageFile="~/MasterPages/Frontend.Master" CodeBehind="Archive.aspx.vb" Inherits="GamingReviews.Archive" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpages/Frontend.Master" AutoEventWireup="true" CodeBehind="Archive.aspx.cs" Inherits="GamingReviews.GameReviews.Archive" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <nav class="Title" style="height: 55px">
         <asp:Label ID="lbTitle" runat="server" Text="Archive" CssClass="lbTitle"></asp:Label>
@@ -18,7 +18,7 @@
                     <asp:BoundField DataField="Date" DataFormatString="{0:MM/dd/yyyy}" HeaderText="Date" SortExpression="Date" />
                 </Columns>
             </asp:GridView>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ReviewDataBaseConnectionString1 %>" SelectCommand="SELECT [GameName], [Genre], [Producer], [Detail], [Platform], [Date] FROM [tblGames] ORDER BY [Date]"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [GameName], [Genre], [Producer], [Detail], [Platform], [Date] FROM [tblGames] ORDER BY [Date]"></asp:SqlDataSource>
         </p>
         
     </div>

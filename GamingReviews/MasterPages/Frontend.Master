@@ -1,4 +1,4 @@
-﻿    <%@ Master Language="C#"  AutoEventWireup="false" CodeBehind="Frontend.master.vb" Inherits="GamingReviews.Frontend" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Frontend.master.cs" Inherits="GamingReviews.Masterpages.Frontend" %>
 
 <!DOCTYPE html>
 

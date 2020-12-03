@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#"  AutoEventWireup="false" MasterPageFile="~/MasterPages/Frontend.Master" CodeBehind="TermsAndPolicies.aspx.vb" Inherits="GamingReviews.TermsAndPolices" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpages/Frontend.Master" AutoEventWireup="true" CodeBehind="TermsAndPolicies.aspx.cs" Inherits="GamingReviews.AboutUs.TermsAndPolicies" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <nav class="Title" style="height: 55px">
         <asp:Label ID="lbTitle" runat="server" Text="Terms&Policies" CssClass="lbTitle"></asp:Label>
