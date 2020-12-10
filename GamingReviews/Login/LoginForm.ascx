@@ -1,37 +1,54 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="LoginForm.ascx.cs" Inherits="GamingReviews.Login.LoginForm" %>
 
-    <style type="text/css">
-        .auto-style1 {
-            width: 93px;
-        }
-        .auto-style2 {
-            height: 13px;
-        }
-    </style>
-
-   <!-- <div id="homeBody">
-        <h3>Sign in</h3>
-
-        <form action="action_page.php" method="post">
-
-        <div class="SignIn">
-         <label for="id"><b>ID&emsp;&emsp;&emsp;&emsp;</b></label>
-         <input type="text" placeholder="Enter id" name="id" required><br />
-
-        <label for="psw"><b>Password&ensp;</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required><br />
-
-            <asp:Button ID="LoginButton" runat="server" Text="Login" OnClick="LoginButton_onClick" />
-            <asp:Button ID="SignButton"  runat="server" Text="Sign Up" PostBackUrl="~/Login/Signup.aspx" CausesValidation="False" UseSubmitBehavior="false"/>
-            <br />
-
-     </div>
-    <span class="psw">Forgot <a href="ForgotenAccount.aspx">password?</a></span>
-</form>       
-    </div>-->
-<asp:Login ID="Login" runat="server" BackColor="#EFF3FB" BorderColor="#B5C7DE" BorderPadding="4" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" OnAuthenticate="Login_Authenticate" UserNameLabelText="ID:" ViewStateMode="Disabled">
+    
+<asp:Login ID="Login" runat="server" BackColor="#E3EAEB" BorderColor="#E6E2D8" BorderPadding="4" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" OnAuthenticate="Login_Authenticate" UserNameLabelText="ID:" ViewStateMode="Disabled" TextLayout="TextOnTop">
     <InstructionTextStyle Font-Italic="True" ForeColor="Black" />
-    <LoginButtonStyle BackColor="White" BorderColor="#507CD1" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" />
+    <LayoutTemplate>
+        <table cellpadding="4" cellspacing="0" style="border-collapse:collapse;">
+            <tr>
+                <td>
+                    <table cellpadding="0">
+                        <tr>
+                            <td align="center" colspan="2" style="color:White;background-color:#507CD1;font-size:0.9em;font-weight:bold;">Log In</td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">ID:</asp:Label>
+                            </td>
+                            <td>
+                                <asp:TextBox ID="UserName" runat="server" Font-Size="0.8em"></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName" ErrorMessage="User Name is required." ToolTip="User Name is required." ValidationGroup="ctl00$Login">*</asp:RequiredFieldValidator>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password">Password:</asp:Label>
+                            </td>
+                            <td>
+                                <asp:TextBox ID="Password" runat="server" Font-Size="0.8em" TextMode="Password"></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" ErrorMessage="Password is required." ToolTip="Password is required." ValidationGroup="ctl00$Login">*</asp:RequiredFieldValidator>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="2" style="color:Red;">
+                                <asp:Literal ID="FailureText" runat="server" EnableViewState="False"></asp:Literal>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right" colspan="2">
+                                <asp:Button ID="LoginButton" runat="server" BackColor="White" BorderColor="#507CD1" BorderStyle="Solid" BorderWidth="1px" CommandName="Login" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" Text="Log In" ValidationGroup="ctl00$Login" />
+                                <asp:Button ID="signUpButton" runat="server" BackColor="White" BorderColor="#507CD1" BorderStyle="Solid" BorderWidth="1px" CommandName="Sign up" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" Text="Sign up" ValidationGroup="ctl00$Login" PostBackUrl="~/Login/Signup.aspx" CausesValidation="False" UseSubmitBehavior="false" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </LayoutTemplate>
+    <LoginButtonStyle BackColor="White" BorderColor="#C5BBAF" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#1C5E55" />
     <TextBoxStyle Font-Size="0.8em" />
-    <TitleTextStyle BackColor="#507CD1" Font-Bold="True" Font-Size="0.9em" ForeColor="White" />
+    <TitleTextStyle BackColor="#1C5E55" Font-Bold="True" Font-Size="0.9em" ForeColor="White" />
 </asp:Login>

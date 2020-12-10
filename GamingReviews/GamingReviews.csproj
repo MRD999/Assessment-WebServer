@@ -89,6 +89,7 @@
     <Content Include="Login\Login.aspx" />
     <Content Include="Login\LoginForm.ascx" />
     <Content Include="Login\Profile.aspx" />
+    <Content Include="Login\SignUpForm.ascx" />
     <Content Include="Login\Signup.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -162,6 +163,13 @@
     </Compile>
     <Compile Include="Login\Profile.aspx.designer.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\SignUpForm.ascx.cs">
+      <DependentUpon>SignUpForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\SignUpForm.ascx.designer.cs">
+      <DependentUpon>SignUpForm.ascx</DependentUpon>
     </Compile>
     <Compile Include="Login\Signup.aspx.cs">
       <DependentUpon>Signup.aspx</DependentUpon>
