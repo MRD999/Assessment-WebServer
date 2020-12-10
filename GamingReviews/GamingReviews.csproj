@@ -83,6 +83,7 @@
     <Content Include="Images\Ad.jpg" />
     <Content Include="Images\Doom.jpg" />
     <Content Include="Images\Dwarf.jpg" />
+    <Content Include="Images\SignUp.PNG" />
     <Content Include="Images\XCOM.png" />
     <Content Include="Login\ForgotenAccount.aspx" />
     <Content Include="Login\Login.aspx" />

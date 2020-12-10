@@ -24,12 +24,12 @@ namespace GamingReviews.Login
         protected global::System.Web.UI.WebControls.Label lbTitle;
 
         /// <summary>
-        /// LoginForm1 control.
+        /// LoginForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::GamingReviews.Login.LoginForm LoginForm1;
+        protected global::GamingReviews.Login.LoginForm LoginForm;
     }
 }
