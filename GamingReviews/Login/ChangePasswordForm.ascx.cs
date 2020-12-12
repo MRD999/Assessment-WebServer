@@ -19,7 +19,7 @@ namespace GamingReviews.Login
         protected void changeButton_Click(object sender, EventArgs e)
         {
             String userName = Session["UserName"].ToString();
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\TAFEAdv\WebServer\Assessment\GamingReviews\App_Data\ReviewDataBase.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ReviewDataBase.mdf;Integrated Security=True;");
             SqlDataAdapter sda1 = new SqlDataAdapter("Select WriterID,Password FROM tblReviewers WHERE WriterID = '" + userName + "' AND Password = '" + OldPsw.Text + "'", con);
             SqlDataAdapter sda2 = new SqlDataAdapter("SELECT UserName , Password FROM tblUsers WHERE UserName ='" + userName + "' AND Password = '" + OldPsw.Text + "'", con);
 

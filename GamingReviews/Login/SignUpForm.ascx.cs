@@ -18,7 +18,8 @@ namespace GamingReviews.Login
 
         protected void SignUp_onClick(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\TAFEAdv\WebServer\Assessment\GamingReviews\App_Data\ReviewDataBase.mdf;Integrated Security=True");
+
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ReviewDataBase.mdf;Integrated Security=True;");
             SqlDataAdapter sda1 = new SqlDataAdapter("SELECT UserName FROM tblUsers WHERE UserName ='" + UserName.Text + "'", con);
 
             DataTable dt1 = new DataTable();

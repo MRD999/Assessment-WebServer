@@ -23,7 +23,7 @@ namespace GamingReviews.Edits
         protected void addButton_Click(object sender, EventArgs e)
         {
             string ID = Session["UserName"].ToString();
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\TAFEAdv\WebServer\Assessment\GamingReviews\App_Data\ReviewDataBase.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ReviewDataBase.mdf;Integrated Security=True;");
             if (String.IsNullOrEmpty(cover.Text))
             {
                 SqlCommand cmd = new SqlCommand("INSERT INTO tblGames(GameName, Genre, Producer, Detail, Platform, Cover, WriterID, Date) VALUES('"+gName.Text+"', '"+genre.Text+"', '"+producer.Text+"', '"+detail.Text+"', '"+DDPlatform.SelectedValue+"', NULL, '"+ID+"', '"+date.SelectedDate+"')",con);

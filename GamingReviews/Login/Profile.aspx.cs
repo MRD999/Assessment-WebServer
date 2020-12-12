@@ -21,7 +21,7 @@ namespace GamingReviews.Login
             //checking for writter id
             String Uname = "";
             Uname = Session["UserName"].ToString();
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\TAFEAdv\WebServer\Assessment\GamingReviews\App_Data\ReviewDataBase.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ReviewDataBase.mdf;Integrated Security=True;");
             SqlDataAdapter sda1 = new SqlDataAdapter("Select WriterID FROM tblReviewers WHERE WriterID = '" + Uname + "'", con);
             SqlDataAdapter sda2 = new SqlDataAdapter("SELECT UserName , Password FROM tblUsers WHERE UserName ='" + Uname + "'", con);
 

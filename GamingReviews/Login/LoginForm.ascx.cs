@@ -26,7 +26,7 @@ namespace GamingReviews.Login
         private bool SiteSpecificAuthenticationMethod(string UserName, string Password)
         {
 
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\TAFEAdv\WebServer\Assessment\GamingReviews\App_Data\ReviewDataBase.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ReviewDataBase.mdf;Integrated Security=True;");
             SqlDataAdapter sda1 = new SqlDataAdapter("Select WriterID,Password FROM tblReviewers WHERE WriterID = '" + UserName + "' AND Password = '" + Password + "'", con);
             SqlDataAdapter sda2 = new SqlDataAdapter("SELECT UserName , Password FROM tblUsers WHERE UserName ='" + UserName + "' AND Password = '" + Password + "'", con);
 

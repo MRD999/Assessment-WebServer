@@ -20,7 +20,7 @@ namespace GamingReviews.GameReviews
             string id = Session["gameID"].ToString();
             int gameID = Int32.Parse(id);
 
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\TAFEAdv\WebServer\Assessment\GamingReviews\App_Data\ReviewDataBase.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ReviewDataBase.mdf;Integrated Security=True;");
             con.Open();
 
             SqlCommand cmd = new SqlCommand("Select WriterID from tblGames Where GameID='" + gameID + "'", con);
