@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Backend.Master.cs" Inherits="GamingReviews.Masterpages.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Game Reviews</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/reset_styles.css" type="text/css" />
+    <link rel="stylesheet" href="../Css/index.css" type="text/css" />
+    <link rel="stylesheet" href="../Css/StyleSheet1.css" type="text/css" />
+</head>
+<body>
+    <!-- headWrapper -->
+    <form id="head_form" runat="server">
+        <div id="HeadWrapper">
+            <asp:ContentPlaceHolder ID="head" runat="server">
+            </asp:ContentPlaceHolder>
+            <nav class="Menu" style="height: 56px">
+                <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" ShowStartingNode="false" SiteMapProvider="SiteMapDataSource2" />
+                <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource2" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+            </nav>
+        </div>
+    
+    
+    <section class="home_body" runat="server">
+        <!-- body -->
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        </asp:ContentPlaceHolder>
+    </section>
+    </form>
+
+     <!-- Footer -->
+    <footer class="base_footer">
+        <p>&#9993;&nbsp;<a href="mailto:webmaster@example.com">Jon Doe</a>&nbsp;&#9742;&nbsp;<a href=" tel:555-555-1212">555-555-1212</a>&nbsp;&#9964;&nbsp;123 fake street Geelong</p>
+    </footer>
+</body>
+
+</html>

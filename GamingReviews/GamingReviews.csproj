@@ -78,8 +78,12 @@
     <Content Include="Css\reset_styles.css" />
     <Content Include="Css\StyleSheet1.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Edits\Add.ascx" />
+    <Content Include="Edits\AddReview.aspx" />
+    <Content Include="Edits\EditReviews.aspx" />
     <Content Include="GameReviews\Archive.aspx" />
     <Content Include="GameReviews\GameReviews.aspx" />
+    <Content Include="GameReviews\ViewPage.aspx" />
     <Content Include="Images\Ad.jpg" />
     <Content Include="Images\Doom.jpg" />
     <Content Include="Images\Dwarf.jpg" />
@@ -88,6 +92,7 @@
     <Content Include="Login\ForgotenAccount.aspx" />
     <Content Include="Login\Login.aspx" />
     <Content Include="Login\LoginForm.ascx" />
+    <Content Include="Login\ChangePasswordForm.ascx" />
     <Content Include="Login\Profile.aspx" />
     <Content Include="Login\SignUpForm.ascx" />
     <Content Include="Login\Signup.aspx" />
@@ -122,6 +127,27 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Edits\Add.ascx.cs">
+      <DependentUpon>Add.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edits\Add.ascx.designer.cs">
+      <DependentUpon>Add.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Edits\AddReview.aspx.cs">
+      <DependentUpon>AddReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edits\AddReview.aspx.designer.cs">
+      <DependentUpon>AddReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edits\EditReviews.aspx.cs">
+      <DependentUpon>EditReviews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edits\EditReviews.aspx.designer.cs">
+      <DependentUpon>EditReviews.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GameReviews\Archive.aspx.cs">
       <DependentUpon>Archive.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -135,6 +161,13 @@
     </Compile>
     <Compile Include="GameReviews\GameReviews.aspx.designer.cs">
       <DependentUpon>GameReviews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GameReviews\ViewPage.aspx.cs">
+      <DependentUpon>ViewPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GameReviews\ViewPage.aspx.designer.cs">
+      <DependentUpon>ViewPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login\ForgotenAccount.aspx.cs">
       <DependentUpon>ForgotenAccount.aspx</DependentUpon>
@@ -156,6 +189,13 @@
     </Compile>
     <Compile Include="Login\LoginForm.ascx.designer.cs">
       <DependentUpon>LoginForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\ChangePasswordForm.ascx.cs">
+      <DependentUpon>ChangePasswordForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\ChangePasswordForm.ascx.designer.cs">
+      <DependentUpon>ChangePasswordForm.ascx</DependentUpon>
     </Compile>
     <Compile Include="Login\Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
@@ -185,10 +225,19 @@
     <Compile Include="Masterpages\Frontend.Master.designer.cs">
       <DependentUpon>Frontend.Master</DependentUpon>
     </Compile>
+    <Compile Include="Masterpages\Backend.Master.cs">
+      <DependentUpon>Backend.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masterpages\Backend.Master.designer.cs">
+      <DependentUpon>Backend.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Masterpages\Frontend.Master" />
+    <Content Include="Masterpages\Backend.Master" />
+    <Content Include="Backend.sitemap" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

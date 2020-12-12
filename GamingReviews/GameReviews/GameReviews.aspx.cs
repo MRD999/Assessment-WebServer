@@ -13,5 +13,15 @@ namespace GamingReviews.GameReviews
         {
 
         }
+     public void button_OnClick(Object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            GridViewRow gvr = (GridViewRow)btn.NamingContainer;
+            int rowindex = gvr.RowIndex;
+            String gameID = GridView1.Rows[rowindex].Cells[0].Text;
+            Session["gameID"] = gameID;
+            Response.Redirect("~/GameReviews/ViewPage.aspx");
+
+        }
     }
 }

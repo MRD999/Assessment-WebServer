@@ -30,10 +30,12 @@
             <aside id="side1" runat="server">
                 <h3>Reviewers</h3>
                <ul>
-                    <li>Reviewer1</li>
-                    <li>Reviewer2</li>
-                    <li>Reviewer3</li>
-                    <li>Reviewer4</li> 
+                    <li>Jordan Writer</li>
+                    <li>Cameron revewe</li>
+                    <li>Haghani Author</li>
+                    <li>Jordan Critic</li> 
+                   <li>Cameron Poet</li>
+                   <li>Haghani Reporter</li>
                </ul>
             </aside>
             <aside id="side2" runat="server">

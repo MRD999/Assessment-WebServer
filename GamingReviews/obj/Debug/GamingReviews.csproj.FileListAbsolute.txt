@@ -111,8 +111,8 @@ G:\TAFEAdv\WebServer\Assessment\GamingReviews\bin\roslyn\VBCSCompiler.exe
 G:\TAFEAdv\WebServer\Assessment\GamingReviews\bin\roslyn\VBCSCompiler.exe.config
 G:\TAFEAdv\WebServer\Assessment\GamingReviews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 G:\TAFEAdv\WebServer\Assessment\GamingReviews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-G:\TAFEAdv\WebServer\Assessment\GamingReviews\obj\Debug\GamingReviews.csprojAssemblyReference.cache
 G:\TAFEAdv\WebServer\Assessment\GamingReviews\obj\Debug\GamingReviews.csproj.CoreCompileInputs.cache
 G:\TAFEAdv\WebServer\Assessment\GamingReviews\obj\Debug\GamingReviews.csproj.CopyComplete
 G:\TAFEAdv\WebServer\Assessment\GamingReviews\obj\Debug\GamingReviews.dll
 G:\TAFEAdv\WebServer\Assessment\GamingReviews\obj\Debug\GamingReviews.pdb
+G:\TAFEAdv\WebServer\Assessment\GamingReviews\obj\Debug\GamingReviews.csprojAssemblyReference.cache

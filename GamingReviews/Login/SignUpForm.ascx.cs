@@ -16,7 +16,7 @@ namespace GamingReviews.Login
 
         }
 
-        protected void SignUp_onClick(object sender, AuthenticateEventArgs e)
+        protected void SignUp_onClick(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\TAFEAdv\WebServer\Assessment\GamingReviews\App_Data\ReviewDataBase.mdf;Integrated Security=True");
             SqlDataAdapter sda1 = new SqlDataAdapter("SELECT UserName FROM tblUsers WHERE UserName ='" + UserName.Text + "'", con);
@@ -27,12 +27,13 @@ namespace GamingReviews.Login
             if(dt1.Rows.Count>0)
             {
                 ErrorText.Visible = true;
-                e.Authenticated = false;
             }
             else
             {
-                //CODE TO INSET SQLdATAaDAPTER WONT WORK
-                SqlDataAdapter sda2 = new SqlDataAdapter("INSERT INTO tblUsers (FirstName,LastName,UserName) VALUES ('" + FName.Text + "','" + LName.Text + "','" + UserName.Text + "','" + psw.Text + "')", con);
+                SqlCommand Cmd = new SqlCommand("INSERT INTO tblUsers (FirstName,LastName,UserName,Password) VALUES ('"+FName.Text+"','"+LName.Text+"','"+UserName.Text+"','"+psw.Text+"')", con);
+                con.Open();
+                Cmd.ExecuteNonQuery();
+                Response.Redirect("~/Login/Login.aspx");
             }
 
         }

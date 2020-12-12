@@ -12,6 +12,7 @@ using System.Web.Services.Description;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 namespace GamingReviews.Login
 {
     public partial class LoginForm : System.Web.UI.UserControl
@@ -26,20 +27,28 @@ namespace GamingReviews.Login
         {
 
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\TAFEAdv\WebServer\Assessment\GamingReviews\App_Data\ReviewDataBase.mdf;Integrated Security=True");
-            //SqlDataAdapter sda1 = new SqlDataAdapter("Select * FROM tblRevewers WHERE WriterID = '" + UserName + "' AND Password = '" + Password + "'", con);
-            SqlDataAdapter sda1 = new SqlDataAdapter("SELECT UserName , Password FROM tblUsers WHERE UserName ='" + UserName + "' AND Password = '" + Password + "'", con);
+            SqlDataAdapter sda1 = new SqlDataAdapter("Select WriterID,Password FROM tblReviewers WHERE WriterID = '" + UserName + "' AND Password = '" + Password + "'", con);
+            SqlDataAdapter sda2 = new SqlDataAdapter("SELECT UserName , Password FROM tblUsers WHERE UserName ='" + UserName + "' AND Password = '" + Password + "'", con);
 
-            //DataTable dt1 = new DataTable();
             DataTable dt1 = new DataTable();
-            //sda1.Fill(dt1);
+            DataTable dt2 = new DataTable();
             sda1.Fill(dt1);
+            sda2.Fill(dt2);
             
            
-            if (dt1.Rows.Count>0)
+            if (dt1.Rows.Count>0 )
             {
+                Session["UserName"] = UserName;
                 Response.Redirect("~/Default.aspx");
                 return true;
 
+
+            }
+            else if(dt2.Rows.Count>0)
+            {
+                Session["UserName"] = UserName;
+                Response.Redirect("~/Default.aspx");
+                return true;
 
             }
             else

@@ -23,9 +23,9 @@
 
 
         <label for="psw"><b>Password&ensp;</b></label>
-        <asp:TextBox ID="psw" runat="server" Required="" OnTextChanged="psw_TextChanged"></asp:TextBox><br />
+        <asp:TextBox ID="psw" TextMode="Password" runat="server" Required=""></asp:TextBox><br />
 
-        <asp:Label ID="ErrorText" runat="server" Text="UserName all ready Exists"></asp:Label ><br />
+        <asp:Label ID="ErrorText" runat="server" Text="UserName all ready Exists" Visible="False"></asp:Label ><br />
         <asp:Button ID="SignUpButton" runat="server" Text="Sign Up" OnClick="SignUp_onClick" />
             <br />
 
