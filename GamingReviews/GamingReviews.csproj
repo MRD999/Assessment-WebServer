@@ -68,8 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs\AboutUs.aspx" />
+    <Content Include="AboutUs\ContactFrom.ascx" />
+    <Content Include="AboutUs\ContactUs.aspx" />
     <Content Include="AboutUs\ReviewerDescriptions.aspx" />
     <Content Include="AboutUs\TermsAndPolicies.aspx" />
+    <Content Include="App_Data\ContactForm.txt" />
     <Content Include="App_Data\ReviewDataBase.mdf" />
     <Content Include="App_Data\ReviewDataBase_log.ldf">
       <DependentUpon>ReviewDataBase.mdf</DependentUpon>
@@ -105,6 +108,20 @@
     </Compile>
     <Compile Include="AboutUs\AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs\ContactFrom.ascx.cs">
+      <DependentUpon>ContactFrom.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs\ContactFrom.ascx.designer.cs">
+      <DependentUpon>ContactFrom.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs\ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs\ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
     </Compile>
     <Compile Include="AboutUs\ReviewerDescriptions.aspx.cs">
       <DependentUpon>ReviewerDescriptions.aspx</DependentUpon>
@@ -247,7 +264,9 @@
     </None>
     <Content Include="Web.sitemap" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Mail\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

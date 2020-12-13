@@ -5,6 +5,7 @@
     <siteMapNode url="~/AboutUs/AboutUs.aspx" title="About us" description="">
       <siteMapNode url="~/AboutUs/ReviewerDescriptions.aspx" title="Reviewer descriptions" description=""/>
       <siteMapNode url="~/AboutUs/TermsAndPolicies.aspx" title="Terms and Polices" description=""/>
+      <siteMapNode url="~/AboutUs/ContactUs.aspx" title="Contact Us" description=""/>
     </siteMapNode>
     <siteMapNode url="~/GameReviews/GameReviews.aspx" title="Game Reviews" description="">
       <siteMapNode url="~/GameReviews/Archive.aspx" title="Archive" description=""/>

@@ -1,0 +1,6 @@
+﻿Hi,
+You have an email from a user from GamingReviews:
+
+Name:				##Name##
+E-mail address:		##Email##
+Comments:			##Comments##
