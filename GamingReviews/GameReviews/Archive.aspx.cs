@@ -42,9 +42,9 @@ namespace GamingReviews.GameReviews
 
         protected void DDPlatform_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (DDWritter.SelectedIndex == 0 && DDPlatform.SelectedIndex == 0)
+            if (DDPlatform.SelectedIndex == 0 && DDWritter.SelectedIndex == 0)
             {
-                SqlDataSource1.SelectCommand = "SELECT [GameId],[GameName], [Genre], [Producer], [Platform], [Date] FROM [tblGames] ORDER BY [Date]";
+                SqlDataSource1.SelectCommand = "SELECT [GameId],[GameName], [Genre], [Producer], [Detail], [Platform], [Date] FROM [tblGames] ORDER BY [Date]";
             }
             else if (DDWritter.SelectedIndex == 0)
             {
